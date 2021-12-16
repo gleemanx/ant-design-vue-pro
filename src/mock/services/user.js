@@ -851,6 +851,17 @@ const userNav = options => {
         show: false
       },
       component: 'NotificationSettings'
+    },
+    {
+      name: 'Monitor',
+      path: '/monitor',
+      parentId: 0,
+      id: 10036,
+      meta: {
+        title: '监控',
+        show: true
+      },
+      component: 'Monitor'
     }
   ]
   const json = builder(nav)
